@@ -1,0 +1,104 @@
+{
+  "beaches": [
+    {
+      "name": "Bondi Beach, Australia",
+      "imageUrl": "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=600",
+      "description": "Bondi Beach is one of Australia's most iconic beaches, known for its golden sands, excellent surf conditions, and vibrant beach culture. Located in Sydney, it offers stunning coastal walks and a lively atmosphere.",
+      "timeZone": "Australia/Sydney"
+    },
+    {
+      "name": "Copacabana Beach, Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=600",
+      "description": "Copacabana Beach in Rio de Janeiro is famous for its 4km stretch of white sand, beachfront promenade, and vibrant nightlife. It's a cultural hub where locals and tourists gather to enjoy beach sports, music, and sunshine.",
+      "timeZone": "America/Sao_Paulo"
+    },
+    {
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1589197331516-5c0a4c47524e?w=600",
+      "description": "Bora Bora features crystal-clear turquoise waters, pristine white sand beaches, and luxurious overwater bungalows. This tropical paradise is perfect for snorkeling, diving, and romantic getaways.",
+      "timeZone": "Pacific/Tahiti"
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1548013146-72479768bada?w=600",
+      "description": "Angkor Wat is the largest religious monument in the world and a UNESCO World Heritage site. This ancient temple complex showcases magnificent Khmer architecture and intricate stone carvings dating back to the 12th century.",
+      "timeZone": "Asia/Phnom_Penh"
+    },
+    {
+      "name": "Golden Temple, India",
+      "imageUrl": "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=600",
+      "description": "The Golden Temple (Harmandir Sahib) in Amritsar is the holiest Gurdwara of Sikhism. Covered in gold and surrounded by a sacred pool, it represents spiritual devotion and welcomes visitors of all faiths with its community kitchen serving free meals.",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "name": "Borobudur Temple, Indonesia",
+      "imageUrl": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=600",
+      "description": "Borobudur is the world's largest Buddhist temple, built in the 9th century. Located in Central Java, this magnificent structure features nine stacked platforms topped with a central dome, adorned with 2,672 relief panels and 504 Buddha statues.",
+      "timeZone": "Asia/Jakarta"
+    }
+  ],
+  "countries": [
+    {
+      "name": "Australia",
+      "imageUrl": "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=600",
+      "description": "Australia offers diverse experiences from the Great Barrier Reef to the Outback. Explore vibrant cities like Sydney and Melbourne, pristine beaches, unique wildlife, and ancient Aboriginal culture.",
+      "timeZone": "Australia/Sydney",
+      "cities": [
+        {
+          "name": "Sydney, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=600",
+          "description": "A beautiful coastal city with a relaxed atmosphere, featuring the Sydney Opera House, Harbour Bridge, and stunning beaches.",
+          "timeZone": "Australia/Sydney"
+        },
+        {
+          "name": "Melbourne, Australia",
+          "imageUrl": "https://images.unsplash.com/photo-1514395462725-fb4566210144?w=600",
+          "description": "Known for its coffee culture, street art, and sporting events. Melbourne offers a perfect blend of urban sophistication and natural beauty.",
+          "timeZone": "Australia/Melbourne"
+        }
+      ]
+    },
+    {
+      "name": "Japan",
+      "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600",
+      "description": "Japan seamlessly blends ancient traditions with cutting-edge technology. Experience serene temples, cherry blossoms, world-class cuisine, and the bustling streets of Tokyo.",
+      "timeZone": "Asia/Tokyo",
+      "cities": [
+        {
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=600",
+          "description": "A dynamic metropolis where ancient temples coexist with futuristic skyscrapers. Experience world-class cuisine, cutting-edge technology, and vibrant pop culture.",
+          "timeZone": "Asia/Tokyo"
+        },
+        {
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=600",
+          "description": "The cultural heart of Japan, featuring thousands of temples, traditional gardens, geisha districts, and stunning seasonal landscapes.",
+          "timeZone": "Asia/Tokyo"
+        }
+      ]
+    },
+    {
+      "name": "Brazil",
+      "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=600",
+      "description": "Brazil captivates with its Amazon rainforest, carnival celebrations, beautiful beaches, and passionate culture. From Rio's iconic Christ the Redeemer to the pristine Pantanal wetlands.",
+      "timeZone": "America/Sao_Paulo",
+      "cities": [
+        {
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=600",
+          "description": "Famous for its beaches, carnival, and the iconic Christ the Redeemer statue. Experience samba, stunning landscapes, and vibrant street life.",
+          "timeZone": "America/Sao_Paulo"
+        },
+        {
+          "name": "São Paulo, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1541440917886-f25866c70bc3?w=600",
+          "description": "Brazil's largest city offers world-class museums, diverse cuisine, thriving nightlife, and a dynamic business atmosphere.",
+          "timeZone": "America/Sao_Paulo"
+        }
+      ]
+    }
+  ]
+}

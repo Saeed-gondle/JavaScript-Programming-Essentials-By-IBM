@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TravelBloom - Explore Dream Destinations</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="logo">
+          <svg class="logo-icon" viewBox="0 0 64 64" width="50" height="50">
+            <path
+              d="M32 8 L20 24 L8 20 L16 36 L4 44 L20 48 L24 60 L32 48 L40 60 L44 48 L60 44 L48 36 L56 20 L44 24 Z"
+              fill="white"
+            />
+          </svg>
+          <span class="logo-text">TravelBloom</span>
+        </div>
+        <ul class="nav-menu">
+          <li>
+            <a href="travel_recommendation.html" class="nav-link">Home</a>
+          </li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="contact.html" class="nav-link">Contact Us</a></li>
+        </ul>
+        <div class="search-container">
+          <input
+            type="text"
+            id="searchInput"
+            class="search-input"
+            placeholder="Enter a destination or keyword"
+          />
+          <button id="searchBtn" class="btn btn-search">Search</button>
+          <button id="clearBtn" class="btn btn-clear">Clear</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="social-icons">
+        <a href="#" class="social-icon" aria-label="Twitter">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path
+              d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+            />
+          </svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="Facebook">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path
+              d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+            />
+          </svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="Instagram">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+            <path
+              d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"
+              fill="none"
+              stroke="currentColor"
+            />
+            <circle cx="17.5" cy="6.5" r="1.5" />
+          </svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="YouTube">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white">
+            <path
+              d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.33z"
+            />
+            <polygon
+              points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"
+              fill="#2c3e50"
+            />
+          </svg>
+        </a>
+      </div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">EXPLORE<br />DREAM<br />DESTINATION</h1>
+        <p class="hero-description">
+          It encourages exploration of unfamiliar territories, embracing diverse
+          cultures and landscapes, while pursuing the desired destination that
+          captivates the heart and ignites a sense of wonder.
+        </p>
+        <button class="btn btn-book">BOOK NOW</button>
+      </div>
+
+      <div class="search-message">Please enter a valid search query.</div>
+    </section>
+
+    <!-- Results Section -->
+    <section id="resultsSection" class="results-section">
+      <div id="resultsContainer" class="results-container"></div>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
