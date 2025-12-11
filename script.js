@@ -23,6 +23,26 @@ async function fetchTravelData() {
 document.addEventListener("DOMContentLoaded", () => {
   fetchTravelData();
 
+  // Mobile menu toggle
+  const mobileMenuToggle = document.getElementById("mobileMenuToggle");
+  const navMenu = document.getElementById("navMenu");
+
+  if (mobileMenuToggle && navMenu) {
+    mobileMenuToggle.addEventListener("click", () => {
+      mobileMenuToggle.classList.toggle("active");
+      navMenu.classList.toggle("active");
+    });
+
+    // Close menu when clicking on a link
+    const navLinks = navMenu.querySelectorAll(".nav-link");
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        mobileMenuToggle.classList.remove("active");
+        navMenu.classList.remove("active");
+      });
+    });
+  }
+
   // Add event listeners
   const searchBtn = document.getElementById("searchBtn");
   const clearBtn = document.getElementById("clearBtn");

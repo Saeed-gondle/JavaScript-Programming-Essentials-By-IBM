@@ -10,23 +10,34 @@
     <!-- Navigation Bar -->
     <nav class="navbar">
       <div class="nav-container">
-        <div class="logo">
-          <svg class="logo-icon" viewBox="0 0 64 64" width="50" height="50">
-            <path
-              d="M32 8 L20 24 L8 20 L16 36 L4 44 L20 48 L24 60 L32 48 L40 60 L44 48 L60 44 L48 36 L56 20 L44 24 Z"
-              fill="white"
-            />
-          </svg>
-          <span class="logo-text">TravelBloom</span>
+        <div class="nav-header">
+          <div class="logo">
+            <svg class="logo-icon" viewBox="0 0 64 64" width="50" height="50">
+              <path
+                d="M32 8 L20 24 L8 20 L16 36 L4 44 L20 48 L24 60 L32 48 L40 60 L44 48 L60 44 L48 36 L56 20 L44 24 Z"
+                fill="white"
+              />
+            </svg>
+            <span class="logo-text">TravelBloom</span>
+          </div>
+          <button
+            class="mobile-menu-toggle"
+            id="mobileMenuToggle"
+            aria-label="Toggle menu"
+          >
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </button>
         </div>
-        <ul class="nav-menu">
+        <ul class="nav-menu" id="navMenu">
           <li>
             <a href="index.html" class="nav-link">Home</a>
           </li>
           <li><a href="about.html" class="nav-link">About Us</a></li>
           <li><a href="contact.html" class="nav-link">Contact Us</a></li>
         </ul>
-        <div class="search-container">
+        <div class="search-container" id="searchContainer">
           <input
             type="text"
             id="searchInput"
